@@ -2,20 +2,18 @@ import React from 'react';
 import "./style.css";
 
 
-    function ImageCards(props) {
-      return (
-        <div className="card">
-          <div className="img-container">
-            <img alt={props.name} src={props.image} />
-          </div>
-          <span onClick={() => props.removeFriend(props.id)} className="remove">
-            𝘅
-          </span>
+function ImageCards(props) {
+  return (
+    <div>
+        <div className="img-container">
+          <img alt={props.name} src={props.image} />
         </div>
-      );
-    }
+      </div>
     
-    export default ImageCards;
-    
- 
+  );
+}
+
+export default ImageCards;
+
+
 
