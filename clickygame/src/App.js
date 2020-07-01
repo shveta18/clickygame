@@ -6,37 +6,41 @@ import images from "./images.json";
 import Wrapper from "./components/Wrapper";
 import Score from "./components/ScoreCard";
 
+class App extends Component {
+  // Setting this.state.friends to the friends json array
+  state = {
+    images
+  };
+
+  // shuffleImage = id => {
+  //   // when any image is clicked, the images are shuffled at random
+  //   // create a randomized ID
+  // let randomizedID = Math.floor(Math.random() * 14) + 1 ; 
+  // // assign this randomized id as the key for the array 
+  // // }
+
+  // create scorecard values 
+
+  render() {
+    return (
+      <Wrapper>
+        <Title>Tudor Court</Title>
+        <Score>Your score is {}</Score>
+        {images.map(images => (
+          <ImageCards
+            randomizedID={images.id}
+            key={images.id}
+            name={images.name}
+            image={images.image}
+          />
+        ))}
+      </Wrapper>
+    )
+  }
+}
+  // Map over this.state.friends and render a FriendCard component for each friend object
 
 
-// shuffleImage = id => {
-//   // when any image is clicked, the images are shuffled at random
-//   // create a randomized ID
-// let randomizedID = Math.floor(Math.random() * 14) + 1 ; 
-// // assign this randomized id as the key for the array 
-// // }
+  // render the component to display the new images per the shuffle
 
-// create scorecard values 
-
-
-const App = () => (
-  <Wrapper>
-    <Title>Tudor Court</Title>
-    <Score>Your score is {}</Score>
-    {images.map(images => (
-      <ImageCards
-        randomizedID={images.id}
-        key={images.id}
-        name={images.name}
-        image={images.image}
-
-      />
-    ))}
-  </Wrapper>
-
-)
-// Map over this.state.friends and render a FriendCard component for each friend object
-
-
-// render the component to display the new images per the shuffle
-
-export default App;
+  export default App;
