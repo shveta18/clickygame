@@ -12,6 +12,7 @@
     "react-scripts": "3.4.1",
     "react-shuffle": "^2.1.0"
   },
+  "homepage": "https://shveta18.github.io/clickygame/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
