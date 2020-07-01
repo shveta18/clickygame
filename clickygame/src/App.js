@@ -6,6 +6,8 @@ import images from "./images.json";
 import Wrapper from "./components/Wrapper";
 
 
+
+
 // class App extends Component {
 //   // Setting this.state.friends to the friends json array
 //   state = {

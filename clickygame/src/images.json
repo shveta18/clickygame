@@ -2,66 +2,66 @@
     {
       "id": 1,
       "name": "Henry",
-      "image": "./images/henry.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Enrique_VIII_de_Inglaterra%2C_por_Hans_Holbein_el_Joven.jpg"
     },
     {
         "id": 2,
         "name": "Anne Boleyn",
-        "image": "./images/Anne_boleyn.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Anne_boleyn.jpg"
       },
       {
         "id": 3,
         "name": "Anne of Cleves",
-        "image": "./images/AnneCleves.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Anne_of_Cleves%2C_by_Hans_Holbein_the_Younger.jpg"
       },
       {
         "id": 4,
         "name": "Wolsey",
-        "image": "./images/Wolsey.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Cardinal_Thomas_Wolsey.jpg"
       },
       {
         "id": 5,
         "name": "Catherine of Aragon",
-        "image": "./images/Catherine of Aragon.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Catalina_de_Arag%C3%B3n%2C_por_un_artista_an%C3%B3nimo.jpg"
       },
       {
         "id": 6,
         "name": "Catherine Parr",
-        "image": "./images/Catherine_Parr.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Catherine_Parr_from_NPG.jpg"
       },
       {
         "id": 7,
         "name": "Edward",
-        "image": "./images/Edward.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Circle_of_William_Scrots_Edward_VI_of_England.jpg"
       },
       {
         "id": 8,
         "name": "Elizabeth of York",
-        "image": "./images/Elizabeth of York.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Elizabeth_of_York_from_Kings_and_Queens_of_England.jpg"
       },
       {
         "id": 9,
         "name": "Elizabeth",
-        "image": "./images/Elizabeth.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Darnley_stage_3.jpg"
       },
       {
         "id": 10,
         "name": "Jane Seymore",
-        "image": "./images/Jane Seymore.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Hans_Holbein_the_Younger_-_Jane_Seymour%2C_Queen_of_England_-_Google_Art_Project.jpg"
       },
       {
         "id": 11,
         "name": "Mary",
-        "image": "./images/Mary.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Mary_I_by_Master_John.jpg"
       },
       {
         "id": 12,
         "name": "Cromwell",
-        "image": "./images/Thomas Cromwell.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Cromwell%2CThomas%281EEssex%2901.jpg"
       },
       {
         "id": 13,
         "name": "Moore",
-        "image": "./images/Thomas More.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Hans_Holbein%2C_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg"
       }
 ]
