@@ -6,18 +6,33 @@ import images from "./images.json";
 import Wrapper from "./components/Wrapper";
 import Score from "./components/ScoreCard";
 
+function shuffle(a) {
+  for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
     images
   };
 
-  // shuffleImage = id => {
-  //   // when any image is clicked, the images are shuffled at random
-  //   // create a randomized ID
-  // let randomizedID = Math.floor(Math.random() * 14) + 1 ; 
-  // // assign this randomized id as the key for the array 
-  // // }
+  
+  shuffleImage = id => {
+    shuffle(images);
+    // when any image is clicked, the images are shuffled at random
+    // create a randomized ID
+ // let randomizedID = Math.floor(Math.random() * 14) + 1 ; 
+
+  // assign this randomized id as the key for the array 
+
+  // newly updated array of images
+  console.log(images);
+  this.setState({images});
+  }
 
   // create scorecard values 
 
@@ -25,19 +40,20 @@ class App extends Component {
     return (
       <Wrapper>
         <Title>Tudor Court</Title>
-        <Score>Your score is {}</Score>
-        {images.map(images => (
+        <Score/>
+        {this.state.images.map(images => (
           <ImageCards
-            randomizedID={images.id}
+            shuffleImage={this.shuffleImage}
             key={images.id}
             name={images.name}
             image={images.image}
           />
         ))}
       </Wrapper>
-    )
+    );
   }
 }
+
   // Map over this.state.friends and render a FriendCard component for each friend object
 
 
