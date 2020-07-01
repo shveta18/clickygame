@@ -1,67 +1,67 @@
 [
     {
-      id: 1,
-      name: "Henry",
-      image: "./images/henry.jpg"
+      "id": 1,
+      "name": "Henry",
+      "image": "./images/henry.jpg"
     },
     {
-        id: 2,
-        name: "Anne Boleyn",
-        image: "./images/Anne_boleyn.jpg"
+        "id": 2,
+        "name": "Anne Boleyn",
+        "image": "./images/Anne_boleyn.jpg"
       },
       {
-        id: 3,
-        name: "Anne of Cleves",
-        image: "./images/AnneCleves.jpg"
+        "id": 3,
+        "name": "Anne of Cleves",
+        "image": "./images/AnneCleves.jpg"
       },
       {
-        id: 4,
-        name: "Wolsey",
-        image: "./images/Wolsey.jpg"
+        "id": 4,
+        "name": "Wolsey",
+        "image": "./images/Wolsey.jpg"
       },
       {
-        id: 5,
-        name: "Catherine of Aragon",
-        image: "./images/Catherine of Aragon.jpg"
+        "id": 5,
+        "name": "Catherine of Aragon",
+        "image": "./images/Catherine of Aragon.jpg"
       },
       {
-        id: 6,
-        name: "Catherine Parr",
-        image: "./images/Catherine_Parr.jpg"
+        "id": 6,
+        "name": "Catherine Parr",
+        "image": "./images/Catherine_Parr.jpg"
       },
       {
-        id: 7,
-        name: "Edward",
-        image: "./images/Edward.jpg"
+        "id": 7,
+        "name": "Edward",
+        "image": "./images/Edward.jpg"
       },
       {
-        id: 8,
-        name: "Elizabeth of York",
-        image: "./images/Elizabeth of York.jpg"
+        "id": 8,
+        "name": "Elizabeth of York",
+        "image": "./images/Elizabeth of York.jpg"
       },
       {
-        id: 9,
-        name: "Elizabeth",
-        image: "./images/Elizabeth.jpg"
+        "id": 9,
+        "name": "Elizabeth",
+        "image": "./images/Elizabeth.jpg"
       },
       {
-        id: 10,
-        name: "Jane Seymore",
-        image: "./images/Jane Seymore.jpg"
+        "id": 10,
+        "name": "Jane Seymore",
+        "image": "./images/Jane Seymore.jpg"
       },
       {
-        id: 11,
-        name: "Mary",
-        image: "./images/Mary.jpg"
+        "id": 11,
+        "name": "Mary",
+        "image": "./images/Mary.jpg"
       },
       {
-        id: 12,
-        name: "Cromwell",
-        image: "./images/Thomas Cromwell.jpg"
+        "id": 12,
+        "name": "Cromwell",
+        "image": "./images/Thomas Cromwell.jpg"
       },
       {
-        id: 11,
-        name: "Moore",
-        image: "./images/Thomas More.jpg"
+        "id": 11,
+        "name": "Moore",
+        "image": "./images/Thomas More.jpg"
       }
 ]
